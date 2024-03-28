@@ -1,8 +1,7 @@
 # BoletaHonorariosEmitir
 Integración para emitir boleta de honorarios con sistema propio
 
-
-´´´´
+````
 <?php
 
 $arregloJson = array(
@@ -63,4 +62,4 @@ cy0gxQjejh8g1OvHXDgli08=
   
  
 ?>
-´´´´
+````
