@@ -1,6 +1,26 @@
-# BoletaHonorariosEmitir
-Integración para emitir boleta de honorarios con sistema propio
+# Emitir Boleta de Honorarios desde Sistema Propio
 
+API Diseñada para que el programador pueda realizar una rápida Integración de Sistema Propio.
+El objetivo de esta api es "Emitir boleta de honorarios desde sistema propio".
+La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json.
+
+## CARACTERÍSTICAS:
+
+**Compatibilidad:** Windows, Linux, Mac, Android y Iphone.
+
+**Integración:** ApiRest Datos Json o Archivo Txt
+
+**Código Abierto:** Al comprar la Api se entrega código fuente.
+
+## Documentación
+
+A continuación se detalla el procedimiento a realizar en la integración.
+
+-   [01.-Crear datos json o archivo txt]
+-   [02.-Enviar datos Json o archivo txt]
+-   [03.-Procesar Respuesta Json o archivo txt] 
+
+## Ejemplo php arrat json:
 ````
 <?php
 
@@ -42,7 +62,7 @@ $arregloJson = array(
 ````
 
 
-
+## Ejemplo Json
 ````
 {
 	"Token": "qwerty",
