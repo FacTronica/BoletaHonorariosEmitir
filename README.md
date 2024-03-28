@@ -42,49 +42,8 @@ A continuación se detalla el procedimiento a realizar en la integración.
 -   [02.-Enviar datos Json o archivo txt]
 -   [03.-Procesar Respuesta Json o archivo txt] 
 
-## Ejemplo php array json:
-````
-<?php
-
-$arregloJson = array(
-
-"Token" => "qwerty",
-
-"RutEmisor"=>"11111111-1",
-"ClaveSii"=>"abc123",
-
-"NombreEmisor"=>"Juan Perez Pruebas",
-"GiroEmisor"=>"Servicios Informaticos",
-"DireccionEmisor"=>"Av. Las Pruebas 3344",
-"ComunaEmisor"=>"Providencia",
-"FonoEmisor"=>"56912345678",
-"CorreoEmisor"=>"correo@emisor.cl",
-        
-"RutReceptor" => "22222222-2",
-"NombreReceptor" => "Luis Gonzalez pruebas",
-"DomicilioReceptor" => "Av Jose Miguel Carrera 2232",
-"ComunaReceptor" => "San Miguel",
-"FonoReceptor" => "56987654321",
-"CorreoReceptor" => "luis@receptor.cl",
-
-"DescripcionPrestacion_1" => "Servicio de Asesoria",        
-"ValorPrestacion_1" => "100",
-"DescripcionPrestacion_2" => "Servicio de Capacitacion",        
-"ValorPrestacion_2" => "200",
-"DescripcionPrestacion_3" => "Instalacion 3 puntos de red",        
-"ValorPrestacion_3" => "300",
-"DescripcionPrestacion_4" => "Upgrade servidor de correos",        
-"ValorPrestacion_5" => "400",
-
-"X509Certificate"=>"-----BEGIN CERTIFICATE-----nnnnnnn-----END CERTIFICATE-----",
-"PrivKey"=>"-----BEGIN PRIVATE KEY----nnnnnnn-----END PRIVATE KEY-----"
-);
- 
-?>
-````
-
-
-## Ejemplo Json
+## PASO 01:
+Crear archivo txt o datos json con el siguiente formato:
 ````
 {
 	"Token": "qwerty",
@@ -114,3 +73,20 @@ $arregloJson = array(
 	"PrivKey": "-----BEGIN PRIVATE KEY-----nnnnnnnnnn-----END PRIVATE KEY-----"
 }
 ````
+## PASO 02: ENVIAR PETICIÓN A LA API
+
+Enviar la petición con el txt o datos json a la url del servidor. 
+````
+curl -k -d "Token=API-KEY-USER&RutEmisor=11111111-1&..." -H "Content-Type: application/x-www-form-urlencoded" -X POST http://www.sitio.cl/api/
+````
+
+## PASO 03: RECUPERAR RESPUESTA DE LA API
+
+La respuesta que entrega la api entrega el Folio de boleta de honorarios, además entrega la url en base64 para descargar pdf. 
+````
+curl -k -d "Token=API-KEY-USER&RutEmisor=11111111-1&..." -H "Content-Type: application/x-www-form-urlencoded" -X POST http://www.sitio.cl/api/
+````
+{"Codigo":"220","Estado":"OK","Mensaje":"Boleta Emitida correctamente","FolioBoleta":"1675","UrlBase64":"nnnnnn"}
+````
+
+
