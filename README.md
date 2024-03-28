@@ -4,13 +4,17 @@ API Diseñada para que el programador pueda realizar una rápida Integración de
 El objetivo de esta api es "Emitir boleta de honorarios desde sistema propio".
 La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json.
 
+## PRECIOS:
+---
+---
+
 ## CARACTERÍSTICAS:
 
 ![](https://scanapp.org/assets/github_assets/done.png) **Compatibilidad:** Windows, Linux, Mac, Android y Iphone.
 
-**Integración:** ApiRest Datos Json o Archivo Txt
+![](https://scanapp.org/assets/github_assets/done.png) **Integración:** ApiRest Datos Json o Archivo Txt
 
-**Código Abierto:** Al comprar la Api se entrega código fuente.
+![](https://scanapp.org/assets/github_assets/done.png) **Código Abierto:** Al comprar la Api se entrega código fuente.
 
 ## Documentación
 
