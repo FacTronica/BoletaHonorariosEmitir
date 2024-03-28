@@ -6,7 +6,7 @@ La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json.
 
 ## CARACTERÍSTICAS:
 
-**Compatibilidad:** Windows, Linux, Mac, Android y Iphone.
+![](https://scanapp.org/assets/github_assets/done.png) **Compatibilidad:** Windows, Linux, Mac, Android y Iphone.
 
 **Integración:** ApiRest Datos Json o Archivo Txt
 
