@@ -10,8 +10,11 @@ La <b>API BBHH Factronica</b> esta diseñada para que el programador pueda reali
 
 La <b>API BBHH Factronica</b>, se encuentra disponible en 2 modalidades; Pago Único y Pago Mensual.
 <br>En ambos casos el método de integración es el mismo, lo que cambia solo es la url del endpoint de la api.
-<br>Precio Modalidad Pago Único: <b>20 UF = $740.000</b>.- aprox.
+<br>
+<br>Precio Modalidad Pago Único: <b>20 UF = $740.000</b>.- aprox. (*)
 <br>Precio Modalidad Pago Mensual: <b>1 UF = $37.000</b>.- aprox.
+<br>
+<br>(*) Los clientes que ya han comprado la API factura electrónica o boleta electrónica, tienen un <b>50% de descuento</b> en la modalidad pago único.
 
 ## CARACTERÍSTICAS:
 
