@@ -1,8 +1,8 @@
 # Emitir Boleta de Honorarios desde Sistema Propio
 
 API Diseñada para que el programador pueda realizar una rápida Integración de Sistema Propio.
-El objetivo de esta api es "Emitir boleta de honorarios desde sistema propio".
-La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json.
+<br>El objetivo de esta api es <b>"Emitir boleta de honorarios desde sistema propio"</b>.
+<br>La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json.
 
 ## PRECIOS:
 ---
