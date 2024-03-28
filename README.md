@@ -1,12 +1,14 @@
 # API EMITIR BOLETA HONORARIOS
 
-API Diseñada para que el programador pueda realizar una rápida Integración de Sistema Propio.
-<br>El objetivo de esta api es <b>"Emitir boleta de honorarios desde sistema propio"</b>.
-<br>La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json.
+## DESCRIPCIÓN:
 
-## PRECIOS:
+La <b>API BBHH Factronica</b> esta diseñada para que el programador pueda realizar una fácil y rápida Integración con Sistema Propio.
+<br>El objetivo de esta api es <b>"Emitir Boleta de Honorarios desde Sistema Propio"</b>.
+<br>La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json o archivos txt.
 
-La API BBHH Factronica, se encuentra disponible en 2 modalidades; Pago Único y Pago Mensual.
+## PRECIO:
+
+La <b>API BBHH Factronica</b>, se encuentra disponible en 2 modalidades; Pago Único y Pago Mensual.
 <br>En ambos casos el método de integración es el mismo, lo que cambia solo es la url del endpoint de la api.
 <br>Precio Modalidad Pago Único: <b>20 UF = $740.000</b>.- aprox.
 <br>Precio Modalidad Pago Mensual: <b>1 UF = $37.000</b>.- aprox.
