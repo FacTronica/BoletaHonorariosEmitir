@@ -6,15 +6,23 @@ La <b>API BBHH Factronica</b> esta diseñada para que el programador pueda reali
 <br>El objetivo de esta api es <b>"Emitir Boleta de Honorarios desde Sistema Propio"</b>.
 <br>La comunicación entre el Servidor y Cliente se realiza a traves de Datos Json o archivos txt.
 
-## PRECIO:
+## PRECIOS:
 
 La <b>API BBHH Factronica</b>, se encuentra disponible en 2 modalidades; Pago Único y Pago Mensual.
 <br>En ambos casos el método de integración es el mismo, lo que cambia solo es la url del endpoint de la api.
+<br>Esto quiere decir que si contrata la modalidad pago mensual y posteriormente quiere compra la api, solo deberá cambiar la url a la cual envía el json o archivo txt.
 <br>
-<br>Precio Modalidad Pago Único: <b>20 UF = $740.000</b>.- aprox. (*)
+<br>Precio Modalidad Pago Único: <b>20 UF = $740.000</b>.- aprox. (Descuento)
+<br>-Se utiliza en servidores propios del cliente
+<br>-Sin limite de boletas emitidas.
+<br>-Sin limite de empresas emisoras.
+<br>
 <br>Precio Modalidad Pago Mensual: <b>1 UF = $37.000</b>.- aprox.
-<br>
-<br>(*) Los clientes que ya han comprado la API factura electrónica o boleta electrónica, tienen un <b>50% de descuento</b> en la modalidad pago único.
+<br>-Se utiliza en servidores de Factronica
+<br>-Limite de 12 documentos por minuto.
+<br>-Limite de 2 Empresas emisoras.
+<br>-
+<br>(Descuento) Los clientes que ya han comprado la API factura electrónica o boleta electrónica, tienen un <b>50% de descuento</b> en la modalidad pago único.
 
 ## CARACTERÍSTICAS:
 
@@ -24,7 +32,9 @@ La <b>API BBHH Factronica</b>, se encuentra disponible en 2 modalidades; Pago Ú
 
 ![](https://scanapp.org/assets/github_assets/done.png) **Código Abierto:** Al comprar la Api se entrega código fuente.
 
-## Documentación
+![](https://scanapp.org/assets/github_assets/done.png) **Acceso SII Chile:** Acceso con Rut y Clave o Certificado Digital.
+
+## PASOS A SEGUIR PARA LA INTEGRACIÓN:
 
 A continuación se detalla el procedimiento a realizar en la integración.
 
@@ -32,7 +42,7 @@ A continuación se detalla el procedimiento a realizar en la integración.
 -   [02.-Enviar datos Json o archivo txt]
 -   [03.-Procesar Respuesta Json o archivo txt] 
 
-## Ejemplo php arrat json:
+## Ejemplo php array json:
 ````
 <?php
 
