@@ -82,9 +82,7 @@ curl -k -d "Token=API-KEY-USER&RutEmisor=11111111-1&..." -H "Content-Type: appli
 
 ## PASO 03: RECUPERAR RESPUESTA DE LA API
 
-La respuesta que entrega la api entrega el Folio de boleta de honorarios, además entrega la url en base64 para descargar pdf. 
-````
-curl -k -d "Token=API-KEY-USER&RutEmisor=11111111-1&..." -H "Content-Type: application/x-www-form-urlencoded" -X POST http://www.sitio.cl/api/
+La respuesta que entrega la api es en formato json. 
 ````
 {"Codigo":"220","Estado":"OK","Mensaje":"Boleta Emitida correctamente","FolioBoleta":"1675","UrlBase64":"nnnnnn"}
 ````
